@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BGMI Quiz Application</title>
+
+    <link rel="stylesheet" href="./quizAssignment.css">
+
+    <style>
+        h3 {
+            display: none;
+        }
+
+        #correct1,
+        #correct2,
+        #correct3,
+        #correct4,
+        #correct5 {
+            color: green;
+        }
+
+        #incorrect1,
+        #incorrect2,
+        #incorrect3,
+        #incorrect4,
+        #incorrect5 {
+            color: red;
+        }
+
+        /* Q1 */
+        #bgmi:checked ~ #correct1 {
+            display: block;
+        }
+
+        /* Q2 */
+        #krafton:checked ~ #correct2 {
+            display: block;
+        }
+
+        /* Q3 */
+        #erangel:checked ~ #correct3 {
+            display: block;
+        }
+
+        /* Q4 */
+        #akm:checked ~ #correct4 {
+            display: block;
+        }
+
+        /* Q5 */
+        #awm:checked ~ #correct5 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎮 BGMI Quiz</h1>
+
+
+    <!-- Question 1 -->
+
+    <p>Q1. What does BGMI stand for?</p>
+
+    <span>A.</span>
+    <input type="radio" id="pubg" name="bgmi">
+    <label for="pubg">PlayerUnknown's Battlegrounds</label>
+    <br>
+
+    <span>B.</span>
+    <input type="radio" id="bgmi" name="bgmi">
+    <label for="bgmi">Battlegrounds Mobile India</label>
+    <br>
+
+    <span>C.</span>
+    <input type="radio" id="battle" name="bgmi">
+    <label for="battle">Battle Games Mobile India</label>
+    <br>
+
+    <span>D.</span>
+    <input type="radio" id="gaming" name="bgmi">
+    <label for="gaming">Battle Gaming Mobile India</label>
+    <br>
+
+    <h3 id="correct1">✅ Correct!</h3>
+    <h3 id="incorrect1">❌ Incorrect! Try again!</h3>
+
+
+    <!-- Question 2 -->
+
+    <p>Q2. Which company developed BGMI?</p>
+
+    <span>A.</span>
+    <input type="radio" id="garena" name="developer">
+    <label for="garena">Garena</label>
+    <br>
+
+    <span>B.</span>
+    <input type="radio" id="activision" name="developer">
+    <label for="activision">Activision</label>
+    <br>
+
+    <span>C.</span>
+    <input type="radio" id="krafton" name="developer">
+    <label for="krafton">Krafton</label>
+    <br>
+
+    <span>D.</span>
+    <input type="radio" id="ea" name="developer">
+    <label for="ea">EA Sports</label>
+    <br>
+
+    <h3 id="correct2">✅ Correct!</h3>
+    <h3 id="incorrect2">❌ Incorrect! Try again!</h3>
+
+
+    <!-- Question 3 -->
+
+    <p>Q3. Which map is one of the most popular maps in BGMI?</p>
+
+    <span>A.</span>
+    <input type="radio" id="erangel" name="map">
+    <label for="erangel">Erangel</label>
+    <br>
+
+    <span>B.</span>
+    <input type="radio" id="dust" name="map">
+    <label for="dust">Dust 2</label>
+    <br>
+
+    <span>C.</span>
+    <input type="radio" id="verdansk" name="map">
+    <label for="verdansk">Verdansk</label>
+    <br>
+
+    <span>D.</span>
+    <input type="radio" id="nuketown" name="map">
+    <label for="nuketown">Nuketown</label>
+    <br>
+
+    <h3 id="correct3">✅ Correct!</h3>
+    <h3 id="incorrect3">❌ Incorrect! Try again!</h3>
+
+
+    <!-- Question 4 -->
+
+    <p>Q4. Which gun uses 7.62mm ammunition?</p>
+
+    <span>A.</span>
+    <input type="radio" id="m416" name="gun">
+    <label for="m416">M416</label>
+    <br>
+
+    <span>B.</span>
+    <input type="radio" id="scarl" name="gun">
+    <label for="scarl">SCAR-L</label>
+    <br>
+
+    <span>C.</span>
+    <input type="radio" id="akm" name="gun">
+    <label for="akm">AKM</label>
+    <br>
+
+    <span>D.</span>
+    <input type="radio" id="ump" name="gun">
+    <label for="ump">UMP45</label>
+    <br>
+
+    <h3 id="correct4">✅ Correct!</h3>
+    <h3 id="incorrect4">❌ Incorrect! Try again!</h3>
+
+
+    <!-- Question 5 -->
+
+    <p>Q5. Which one is a sniper rifle in BGMI?</p>
+
+    <span>A.</span>
+    <input type="radio" id="vector" name="sniper">
+    <label for="vector">Vector</label>
+    <br>
+
+    <span>B.</span>
+    <input type="radio" id="ump5" name="sniper">
+    <label for="ump5">UMP45</label>
+    <br>
+
+    <span>C.</span>
+    <input type="radio" id="akm5" name="sniper">
+    <label for="akm5">AKM</label>
+    <br>
+
+    <span>D.</span>
+    <input type="radio" id="awm" name="sniper">
+    <label for="awm">AWM</label>
+    <br>
+
+    <h3 id="correct5">✅ Correct!</h3>
+    <h3 id="incorrect5">❌ Incorrect! Try again!</h3>
+
+</body>
+
+</html>
